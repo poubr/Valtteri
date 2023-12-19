@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgba: 34,193,195,1;
+  --background-end-rgba: 105,73,166,1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +16,24 @@
   }
 }
 
-body {
+body { 
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: radial-gradient(
+      circle,
+      rgba(var(--background-start-rgba)) 0%,
+      rgba(var(--background-end-rgba)) 100%
+    );
+}
+
+.comicDots {
+  background: url('/half-tone-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner {
+  background: url('/banner.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
