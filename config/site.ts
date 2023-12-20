@@ -3,7 +3,7 @@ import { SiteConfig, SiteData } from "@/types"
 export const siteConfig: SiteConfig = {
     name: "Valtteri Tavast's Portfolio",
     description: "Valtteri is the bestest indie game developer of all the developers.",
-    url: "https://localhost:3000",
+    url: "https://valtteritavast.com",
     ogImage: "",
     links: {
 
