@@ -101,8 +101,8 @@ export default function Home() {
       {showGalleryImage && (
         <section className="h-screen w-full fixed z-10 top-0 flex justify-center items-center">
           <div className="bg-black/75 w-full h-full absolute" onClick={() => setShowGalleryImage(undefined)}></div>
-          <div className="absolute flex justify-center items-center bg-black">
-            <img src={showGalleryImage} alt="gallery item" />
+          <div className="absolute flex justify-center items-center bg-black w-full md:w-4/5">
+            <img src={showGalleryImage} alt="gallery item"/>
           </div>
         </section>
       )}

@@ -1,15 +1,15 @@
 import { SiteConfig, SiteData } from "@/types"
 
 export const siteConfig: SiteConfig = {
-    name: "Portfolio",
-    description: "Description of the portfolio",
+    name: "Valtteri Tavast's Portfolio",
+    description: "Valtteri is the bestest indie game developer of all the developers.",
     url: "https://localhost:3000",
     ogImage: "",
     links: {
 
     },
     keywords: [],
-    creator: "build-a-portfolio",
+    creator: "Valtteri Tavast",
     appType: "website",
     locale: "en_US"
 }
@@ -21,25 +21,26 @@ export const siteData: SiteData = {
             title: "Rock 'n' Roll Will Never Die!",
             video: "https://www.youtube.com/embed/--rKONUxDuM?si=OkKPb5mFbVn7r8WH",
             description: "Hair metal's not dead, it just smells funny! Get your denim vest, bandana and makeup, and dive into a point-and-click adventure as a middle-aged teddy bear planning a comeback with his old glam metal band – in a world where glam metal has been dead and buried for decades.",
-            engine: "",
+            engine: "Adventure Studios",
             genre: "Point & Click Adventure",
             platform: "PC",
             position: "Programmer & Artist",
             release: "28 April 2022",
             steam: "https://store.steampowered.com/app/1644080/Rock_n_Roll_Will_Never_Die/",
             gallery: [
-                "https://placedog.net/500/280",
-                "https://placedog.net/500/280",
-                "https://placedog.net/500/280",
-                "https://placedog.net/500/280",
-                "https://placedog.net/500/280"
+                "/game-1/game-1-screen-1.jpeg",
+                "/game-1/game-1-screen-2.jpeg",
+                "/game-1/game-1-screen-3.jpeg",
+                "/game-1/game-1-screen-4.jpeg",
+                "/game-1/game-1-screen-5.jpeg",
+                "/game-1/game-1-screen-6.jpeg"
             ]
         }
     ],
     about: {
         title: "Technical Game & System Designer",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus augue a cursus mattis. Aenean mollis scelerisque porta. Phasellus elementum leo at lacus aliquet, id interdum sem semper. Etiam ac lacus turpis. Sed vitae turpis id nisl porttitor condimentum et id velit. Pellentesque suscipit sapien diam, sed molestie felis egestas ut. Vivamus et erat in lorem tristique sodales. Mauris commodo nibh nisl, ac imperdiet urna ornare at. Vivamus sagittis felis vel placerat feugiat. Cras placerat lacus in libero accumsan efficitur. \nMaecenas molestie felis eu magna rutrum ultrices. Integer vitae lorem eu ante pulvinar venenatis id quis mauris. Nullam lorem risus, porta sit amet euismod quis, aliquet a massa. Maecenas sit amet nulla eget sem convallis venenatis vitae non nisi. Maecenas dictum aliquam risus, id efficitur tortor suscipit eu. Integer non neque pretium, pharetra nisi vel, eleifend nunc. Cras laoreet tincidunt mi non sagittis. Fusce et est ut magna accumsan aliquet. Phasellus consequat lectus eu risus volutpat tincidunt. Vestibulum sit amet enim magna. Pellentesque rutrum lectus et purus euismod, ut feugiat neque blandit.",
-        photo: "https://placedog.net/310/500"
+        description: "Valtteri is the bestest indie game developer of all the developers. He is making amazing games like Bear In Venice, or the instant million classic Rock'n'Roll Will Never Die! (whose title was famously stolen by Neil Young). Cats love him and dogs want to be him. Stay tuned for the next great adventure. Coming to you soon maybe eventually!",
+        photo: "/me.jpeg"
     },
     grants: [
         {
