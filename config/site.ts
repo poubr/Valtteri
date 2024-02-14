@@ -57,7 +57,38 @@ export const siteData: SiteData = {
     contact: {
         email: "",
         steam: "https://store.steampowered.com/app/1644080/Rock_n_Roll_Will_Never_Die/",
-        youtube: "https://www.youtube.com/channel/UCbHUtRWdeG8sJ7oSB2M5rCQ"
-    }
+        youtube: "https://www.youtube.com/channel/UCbHUtRWdeG8sJ7oSB2M5rCQ",
+        itch: "https://bestgames.itch.io/"
+    },
+    pathToCV: "",
+    portfolioPhotos: [
+        "/game-1/game-1-screen-1.jpeg",
+        "/game-1/game-1-screen-2.jpeg",
+        "/game-1/game-1-screen-3.jpeg",
+        "/game-1/game-1-screen-4.jpeg",
+        "/game-1/game-1-screen-5.jpeg",
+        "/game-1/game-1-screen-6.jpeg"
+    ],
+    published: [
+        {
+            title: "Publication Number One",
+            date: "November 2022",
+            description: "A brief description of why this was published and the importance."
+        },
+        {
+            title: "Publication Number Two",
+            date: "November 2022",
+            description: "A brief description of why this was pubished and the importance."
+        }
+    ],
+    prints: [],
+    pressReleases: [],
+    reviews: [
+        {
+            content: "A mighty fine game for anyone who likes their rock music, adventure games, and dad jokes. And who doesn't?",
+            author: "Napalm Life",
+            game: "Rock 'n' Roll Will Never Die!",
+        }
+    ]
 }
 

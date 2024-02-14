@@ -43,5 +43,23 @@ export type SiteData = {
         email: string
         steam: string
         youtube: string
+        itch: string
     }
+    pathToCV: string
+    portfolioPhotos: string[]
+    published: {
+        title: string
+        date: string
+        description: string
+    }[]
+    prints: string[]
+    pressReleases: {
+        title: string
+        date: string
+    }[]
+    reviews: {
+        content: string
+        author: string
+        game: string
+    }[]
 }
