@@ -34,7 +34,8 @@ export const siteData: SiteData = {
                 "/game-1/game-1-screen-4.jpeg",
                 "/game-1/game-1-screen-5.jpeg",
                 "/game-1/game-1-screen-6.jpeg"
-            ]
+            ],
+            steamWidget: "https://store.steampowered.com/widget/1644080/"
         }
     ],
     about: {

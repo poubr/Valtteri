@@ -26,7 +26,7 @@ export default function Home() {
               <div className="grid gap-8 mt-8 grid-cols-1 lg:grid-cols-2">
                 <div><iframe className="w-full h-48 md:h-80 lg:h-80" src={game.video} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
                 <div className="flex flex-col">
-                  <iframe src="https://store.steampowered.com/widget/1644080/" height="190"></iframe>
+                  <iframe src={game.steamWidget} height="190"></iframe>
                   <p className="mt-3 text-sm text-white"><span className="font-bold">Engine: </span>{game.engine}</p>
                   <p className="mt-3 text-sm text-white"><span className="font-bold">Genre: </span>{game.genre}</p>
                   <p className="mt-3 text-sm text-white"><span className="font-bold">Position: </span>{game.position}</p>

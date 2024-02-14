@@ -28,6 +28,7 @@ export type SiteData = {
         release: string
         steam: string
         gallery: string[]
+        steamWidget: string
     }[]
     about: {
         title: string
