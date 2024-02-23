@@ -39,20 +39,25 @@ export const siteData: SiteData = {
         }
     ],
     about: {
-        title: "Technical Game & System Designer",
-        description: "Valtteri is the bestest indie game developer of all the developers. He is making amazing games like Bear In Venice, or the instant million classic Rock'n'Roll Will Never Die! (whose title was famously stolen by Neil Young). Cats love him and dogs want to be him. Stay tuned for the next great adventure. Coming to you soon maybe eventually!",
+        title: "Game developer & narrative designer",
+        description: "Valtteri is a (mostly) solo game developer who found his niche in retro style point-and-click adventures. Making the games from start to finish, he does many things: writing, programming, graphics, animation and such. Music and sound design too.<br>The debut and magnum opus Rock 'n' Roll Will Never Die! (2022), is a musical comedy inspired by his love for heavy metal and 90s games he played in his childhood.<br>A new untitled project promises a cold-blooded, yet funny murder mystery set in Finland.<br>He's allergic to cats but doesn't care. Rock!",
         photo: "/me.jpeg"
     },
     grants: [
         {
-            title: "Grant Number One",
-            date: "November 2022",
-            description: "A brief grant description of why this was awarded and the importance."
+            title: "Grafia",
+            date: "May 2023",
+            description: "Awarded for the development of an untitled new game."
         },
         {
-            title: "Grant Number Two",
-            date: "November 2022",
-            description: "A brief grant description of why this was awarded and the importance."
+            title: "Taike",
+            date: "August 2021",
+            description: "Awarded for the development of Rock'n'Roll Will Never Die!"
+        },
+        {
+            title: "Grafia",
+            date: "April 2020",
+            description: "Awarded for the development of graphics for Rock'n'Roll Will Never Die!"
         }
     ],
     contact: {

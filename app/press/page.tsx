@@ -16,7 +16,7 @@ export default function Press() {
     return (
         <> 
             {/* Prints */}
-            <section className="flex flex-col max-w-5xl w-full mt-12">
+            <section className="flex flex-col max-w-5xl w-full mt-2">
                 <h2 className={`text-5xl uppercase text-gray-800 ${theFont.className} font-bold`}>Prints</h2>
                 <section className="z-10 w-full bg-gray-800 shadow-hard p-4 lg:p-8">
                     <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">

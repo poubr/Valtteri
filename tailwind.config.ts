@@ -18,6 +18,10 @@ const config: Config = {
       },
       dropShadow: {
         'hard': '3px 3px 0px rgba(255, 255, 255, 0.6)',
+        'small': '1px 1px 0px rgba(255, 255, 255, 0.6)',
+      },
+      backgroundColor: {
+        'navigation': '#a52175' //Add Navigation background color here
       }
     },
   },

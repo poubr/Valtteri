@@ -16,10 +16,10 @@ export default function Portfolio() {
     return (
         <> 
             {/* CV */}
-            <section className="flex flex-col max-w-5xl w-full mt-12">
+            <section className="flex flex-col max-w-5xl w-full mt-2">
                 <h2 className={`text-5xl uppercase text-gray-800 ${theFont.className} font-bold`}>CV</h2>
                 <section className="z-10 w-full bg-gray-800 shadow-hard p-4 lg:p-8 flex justify-center">
-                    <a href={siteData.pathToCV} className="mt-4 bg-fuchsia-400 text-center py-2 shadow-hard active:shadow-none transition-all text-lg font-bold flex justify-center items-center lg:w-2/5 w-full"><p className="mr-2">Download CV</p></a>
+                    <a href={siteData.pathToCV} className="mt-4 bg-navigation text-center py-2 shadow-hard active:shadow-none transition-all text-lg font-bold flex justify-center items-center lg:w-2/5 w-full text-white"><p className="mr-2">Download CV</p></a>
                 </section>
             </section>
 

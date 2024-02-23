@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       {/* Games */}
-      <section className="flex flex-col max-w-5xl w-full mt-12">
+      <section className="flex flex-col max-w-5xl w-full mt-2">
         <h2 className={`text-5xl uppercase text-gray-800 ${theFont.className} font-bold`}>Games</h2>
         <section className="z-10 w-full grid grid-cols-1 gap-20 bg-gray-800 shadow-hard p-4 lg:p-8">
           {siteData.games.map((game, i) => (
