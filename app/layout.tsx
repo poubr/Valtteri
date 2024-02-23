@@ -59,9 +59,9 @@ export default function RootLayout({
             <h1 className={`text-6xl sm:text-7xl drop-shadow-hard ${theFont.className}`}>{siteData.name}</h1>
           </section>
           <nav className="w-full max-w-5xl flex shadow-hard p-2 my-8 justify-center sticky top-8 lg:top-6 z-40 bg-navigation">
-            <Link href="/" className={`mx-2 lg:mx-8 text-md lg:text-xl text-white hover:text-pink-800 transition uppercase ${theFont.className}`}>Home</Link>
-            <Link href="/portfolio" className={`mx-2 lg:mx-8 text-md lg:text-xl text-white hover:text-pink-800 transition uppercase ${theFont.className}`}>Portfolio</Link>
-            <Link href="/press" className={`mx-2 lg:mx-8 text-md lg:text-xl text-white hover:text-pink-800 transition uppercase ${theFont.className}`}>Press</Link>
+            <Link href="/" className={`mx-2 lg:mx-8 text-md lg:text-xl text-white hover:text-pink-300 transition uppercase ${theFont.className}`}>Home</Link>
+            <Link href="/portfolio" className={`mx-2 lg:mx-8 text-md lg:text-xl text-white hover:text-pink-300 transition uppercase ${theFont.className}`}>Portfolio</Link>
+            <Link href="/press" className={`mx-2 lg:mx-8 text-md lg:text-xl text-white hover:text-pink-300 transition uppercase ${theFont.className}`}>Press</Link>
           </nav>
         {children}
         </main>
